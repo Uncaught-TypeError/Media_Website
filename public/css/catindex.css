@@ -1,0 +1,97 @@
+.contentbg{
+    padding-top: 80px;
+}
+
+.categoryname{
+    font-size: 3rem;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.border-tag{
+    background: rgb(205, 205, 205);
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 50%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.tag-box{
+    height: 50px;
+    /* background: red; */
+}
+
+.navextra{
+    /* background: red; */
+    padding: 10px;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.extranav-border{
+    border-bottom: 1px solid black;
+}
+
+
+.left-box{
+    width: 80%;
+}
+
+.right-box{
+    width: 20%;
+}
+
+.username{
+    color: black;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.username-span{
+    font-weight: 500;font-size: 13px;color: rgb(137, 137, 137);
+}
+
+.categoryname-small{
+    color: black; 
+    font-weight: 500; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.create-at-span{
+    color: rgb(225, 225, 225);
+}
+
+.titlename{
+    font-size: 1.5rem;
+    font-family: 'Geo';
+    font-weight: 600;
+}
+
+.post-detail{
+    font-size: 1.1rem;
+    font-family: 'cambria';
+    color: rgb(62, 62, 62);
+}
+
+.post-detail-box{
+    width: 70%;
+}
+
+.post-category{
+    color: rgb(55, 55, 55); font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(232, 232, 232); background: rgb(232, 232, 232);
+    border-radius: 20px; font-size: 0.8rem;
+}
+
+.create-at{
+    color: rgb(189, 189, 189); font-weight: lighter; font-size: 13px;
+}
+
+.borderbline{
+    border-bottom: 1px solid black;
+}
+
+.whitespace{
+    opacity: 0;
+}

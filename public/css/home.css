@@ -1,0 +1,184 @@
+.contentbg{
+    background: #FFC017;
+    padding-top: 80px;
+}
+
+/* First Banner */
+.first-container{
+    border-bottom: 1px solid black;
+    background: #FFC017;
+}
+
+.left-container{
+    padding: 70px 0px 70px 70px;
+    width:60%;
+}
+
+.lc-header-one{
+    font-size: 7rem; 
+    font-family: 'Cambria'; 
+    font-weight: 500; 
+    color: black;
+}
+
+.card-text{
+    font-size: 1.5rem; width:70%;
+}
+
+.buttondark{
+    font-weight: bold; 
+    font-size: 1.2rem; 
+    border-radius: 40px;
+    width: 200px;
+}
+
+.right-container{
+    width:40%;
+}
+
+/* Trending on Medium */
+.trend-container{
+    margin-top: 10px;
+}
+.trend-title-container{
+    width: auto;
+    /* background: lightcoral; */
+}
+
+.trend-post-container{
+    border-bottom: 1px solid rgb(187, 187, 187);
+    padding: 10px;
+    /* background: lightblue;  */
+}
+
+.tpost-container{
+    width: auto; 
+    height: auto;
+}
+
+.tcard{
+    border: none;
+    width: 20rem;
+    height: auto;
+    /* background: lightgreen; */
+}
+
+.tpnumber{
+    font-weight: bold;
+    color: rgb(189, 189, 189);
+    font-size: 1.5rem; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.single-tpost{
+    height: auto;
+    width: 100%;
+    /* background: red; */
+}
+
+.username{
+    color: black; font-weight: bold;font-family: 'Roboto', sans-serif;
+}
+
+.username-span{
+    font-weight: bold;font-size: 13px;color: rgb(137, 137, 137);
+}
+
+.categoryname{
+    color: black; font-weight: bold; font-family: 'Roboto', sans-serif;
+}
+
+.titlename{
+    font-size: 1.3rem;font-family: 'Geo'; font-weight: 600;
+}
+
+.create-at{
+    color: rgb(189, 189, 189); font-weight: lighter; font-size: 13px;
+}
+
+.create-at-span{
+    color: rgb(225, 225, 225);
+}
+
+.daymonth{
+    color: rgb(189, 189, 189); font-weight: lighter; font-size: 13px;
+}
+
+.left-container-two{
+    width: 60%
+}
+
+.inner-post-left{
+    width: 70%
+}
+
+.post-username{
+    font-size: 0.8rem;color: black; font-weight: bold;font-family: 'Geo';
+}
+
+.post-title{
+    font-size: 1.5rem;font-family: 'roboto'; font-weight: 600;color: black;
+}
+
+.post-detail{
+    font-size: 1rem;font-family: 'roboto'; color: rgb(135, 135, 135);
+}
+
+.post-category{
+    color: rgb(55, 55, 55); font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(232, 232, 232); background: rgb(232, 232, 232);
+    border-radius: 20px; font-size: 0.8rem;
+}
+
+.bg-secondary{
+    width: 30%
+}
+
+/* Discover */
+
+.right-container-two{
+    width: 40%;
+}
+
+.post-category2{
+    color: rgb(55, 55, 55);
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(232, 232, 232);
+    background: rgb(232, 232, 232);
+    border-radius: 20px; 
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.postcat-box{
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.seemore{
+    color: green;
+    font-size: 0.9rem;
+    padding-left: 50px;
+}
+
+.discover{
+    font-family: "roboto";
+    font-size: 1rem;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.borderline{
+    border-top: 1px solid black;
+    margin-top: 30px;
+    width: 80%;
+}
+
+.extras{
+    font-size: 0.9rem;
+    color: rgb(89, 89, 89);
+}
+
+html{
+    scroll-behavior: smooth;
+}

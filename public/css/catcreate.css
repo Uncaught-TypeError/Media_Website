@@ -1,0 +1,31 @@
+.contentbg{
+    padding-top: 80px;
+}
+
+.first-container{
+    width: 70%;
+}
+
+.cat-name{
+    outline: none; 
+    background: none;font-family: 'Geo'; font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.pcolor::placeholder{
+    color: rgb(168, 168, 168);
+}
+
+.cat-section{
+    margin-top: 80px;
+}
+
+.cat-box{
+    width: 70%;
+}
+
+.catname{
+    color: rgb(55, 55, 55); font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(232, 232, 232); background: rgb(232, 232, 232);
+    border-radius: 20px; font-size: 0.8rem;
+}

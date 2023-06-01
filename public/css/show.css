@@ -1,0 +1,108 @@
+.contentbg{
+    padding-top: 80px;
+}
+
+.first-container{
+    width:60%;
+}
+
+.post-title{
+    line-height: normal;font-size: 2.5rem;font-family: 'Roboto', sans-serif; font-weight: 600;
+}
+
+.post-username{
+    font-family: 'Cambria';font-size: 1.2rem; font-weight: 500;
+}
+
+.publishin{
+    font-family: 'Geo'; font-weight: bold;
+}
+
+.post-desc{
+    font-family: 'Cambria'; font-size: 1.3rem;
+}
+
+.post-comment{
+    font-family: 'Geo'; font-size: 1rem; font-weight: 600
+}
+
+.cmt-textarea{
+    width: 100%; height: 150px;
+}
+
+.usercmt-box{
+    padding-left: 30px;margin-top: -10px; align-items: center;
+}
+
+.usercmt{
+    font-family:'Cambria'; font-weight: 500;
+}
+
+.cmtby{
+    padding-left: 30px;font-family:'Cambria'; font-weight: 500; font-size: 1rem;
+}
+
+.datetime-box{
+    padding-left: 30px; margin-top: -10px;
+}
+
+.createdat{
+    color: rgb(135, 135, 135); 
+    font-weight: lighter; font-size: 11px;
+}
+
+.datetime-span{
+    color: rgb(225, 225, 225);
+}
+
+.datetime{
+    color: rgb(135, 135, 135); font-weight: lighter; font-size: 11px;
+}
+
+.replysection{
+    padding-left: 25px
+}
+
+.reply-container{
+    display: none;
+}
+
+.reply-box{
+    font-family: 'Geo'; font-size: 1rem; font-weight: 600
+}
+
+.reply-textarea{
+    width: 100%; height: 100px;
+}
+
+.user-reply-box{
+    align-content: center;align-items: center;padding-left: 100px;
+}
+
+.user-reply-number{
+    font-family: 'Cambria';padding-left: 10px;
+}
+
+.user-reply{
+    font-family:'Cambria'; font-weight: 500;
+}
+
+.reply-cmtby-box{
+    padding-left: 10px;
+}
+
+.reply-cmtby{
+    font-size: 0.8rem;font-family:'Cambria'; font-weight: 500;
+}
+
+.reply-datetime-box{
+    padding-left: 10px;
+}
+
+.reply-datetime{
+    color: rgb(135, 135, 135); font-weight: lighter; font-size: 11px;
+}
+
+.reply-createat-box{
+    color: rgb(135, 135, 135); font-weight: lighter; font-size: 11px;
+}

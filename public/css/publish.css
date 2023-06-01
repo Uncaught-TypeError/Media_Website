@@ -1,0 +1,33 @@
+.contentbg{
+    padding-top: 100px;
+    background: rgb(242, 77, 46);
+}
+
+.first-container{
+    margin-top: -25px; 
+    border-bottom: 1px solid black;
+    /* background: lightblue; */
+}
+
+.inner-first-container{
+    padding: 70px 0px 70px 70px; 
+    width:70%; 
+    border-right: 1px solid black;
+    /* background: red; */
+}
+
+.left-card-body{
+    width: 80%;
+}
+
+.publish-title{
+    font-size: 5.5rem; font-family: 'Cambria'; font-weight: 500; color: black;
+}
+
+.publish-text{
+    font-size: 1.3rem; width:90%;
+}
+
+.post-create-btn{
+    font-weight: bold; font-size: 1.2rem; border-radius: 40px; width: 200px;
+}

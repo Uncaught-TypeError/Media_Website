@@ -1,0 +1,93 @@
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.c1{
+    left: 50%;
+    top: 25%;
+    animation: animate 1.6s linear infinite;
+}
+.c2{
+    left: 25%;
+    top: 30%;
+    animation: animate 1s linear infinite;
+}
+.c3{
+    left: 50%;
+    top: 70%;
+    animation: animate 1.4s linear infinite;
+}
+.c4{
+    left: 10%;
+    top: 60%;
+    animation: animate 2s linear infinite;
+}
+.c5{
+    left: 10%;
+    top: 10%;
+    animation: animate 1s linear infinite;
+}
+.c6{
+    left: 80%;
+    top: 50%;
+    animation: animate 2.5s linear infinite;
+}
+.c7{
+    left: 80%;
+    top: 10%;
+    animation: animate 3s linear infinite;
+}
+.c8{
+    left: 25%;
+    top: 10%;
+    animation: animate 2.8s linear infinite;
+}
+.c9{
+    left: 80%;
+    top: 80%;
+    animation: animate 2.5s linear infinite;
+}
+.c10{
+    left: 50%;
+    top: 50%;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.2;
+    }
+    35%{
+        opacity: 0.4;;
+    }
+    50%{
+        opacity: 0.5;;
+    }
+    65%{
+        opacity: 0.6;;
+    }
+    80%{
+        opacity: 0.7;;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.logo-name{
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Geo';
+}
+
+.contentbg{
+    padding-top: 100px;
+}
+
+
+

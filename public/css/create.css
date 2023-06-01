@@ -1,0 +1,28 @@
+.contentbg{
+    padding-top: 80px;
+}
+
+.first-container{
+    width: 70%;
+}
+
+.select-box{
+    background: none; height:30px; width: auto;border: 1px solid rgb(158, 158, 158); border-radius: 5px;
+}
+
+.title-text{
+    outline: none; 
+    background: none;
+    font-family: 'Geo'; font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.pcolor::placeholder{
+    color: rgb(168, 168, 168);
+}
+
+.description-text{
+    outline: none; 
+    background: none;font-family: 'Cambria';
+    font-size: 1.5rem;
+}
