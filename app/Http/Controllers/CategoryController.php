@@ -7,6 +7,7 @@ use App\Models\Post;
 use App\Models\Category;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class CategoryController extends Controller
 {
@@ -53,6 +54,23 @@ class CategoryController extends Controller
     {
         // return $category;
         return view('category.index',compact('category'));
+    }
+
+    public function latest(string $id, Category $category)
+    {
+        return $category;
+        // $cats = DB::table('categories')->get();
+        // $posts =  DB::table('posts')->get();
+        // foreach ($cats as $category) {
+        //     if($category->id == $id){
+        //         foreach($posts as $post){
+        //             if($post->category_id == $id){
+        //                 return view('category.latest',compact('category','post'));
+        //             }
+        //         }
+        //     }
+        // }
+
     }
 
     /**

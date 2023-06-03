@@ -20,11 +20,11 @@
                 <div class="d-block extranav-border">
                     <a href="" class="d-inline-block text-black text-decoration-none navextra">Trending</a>
                     {{-- <a href="{{ route('category.latest',$category->id) }}" class="d-inline-block text-black text-decoration-none navextra">Latest</a> --}}
-                    <a href="{{ route('latest.show',$category->id) }}" class="d-inline-block text-black text-decoration-none navextra">Latest</a>
+                    <a href="{{ route('latest.show',$category->post->id) }}" class="d-inline-block text-black text-decoration-none navextra">Latest</a>
                     <a href="" class="d-inline-block text-black text-decoration-none navextra">Best</a>
                 </div>
             </div>
-            @foreach($category->post as $key=>$c)
+            @foreach($post as $key=>$c)
                 <div class="container d-flex mt-3">
                     <div class="left-box">
                         <div class="borderbline">

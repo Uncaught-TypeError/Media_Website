@@ -8,6 +8,7 @@ use App\Http\Controllers\CommentController;
 use App\Http\Controllers\SubCommentController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\LatestController;
 use App\Models\Post;
 use App\Models\Category;
 use Illuminate\Pagination\Paginator;
@@ -51,8 +52,11 @@ Route::resource('posts',HomeController::class);
 Route::resource('comments',CommentController::class);
 Route::resource('users',UserController::class);
 Route::resource('admin',AdminController::class);
+Route::resource('latest',LatestController::class);
 
 Route::post('comments/{id}', [CommentController::class, 'store2'])->name('comments.store2');
 Route::post('subcomments/{id}', [SubCommentController::class, 'store3'])->name('comments.store3');
+
+// Route::get('latest/{id}', [CategoryController::class, 'latest'])->name('category.latest');
 
 
