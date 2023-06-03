@@ -68,7 +68,7 @@
     </div>
 </div>
 <div class="container-fluid mt-5 opacity-0" id="posts">
-    White Spaces
+    White Space
 </div>
 <div class="container-fluid" >
     <div class="container d-flex" style="">
