@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @push('homestyle')
     <link rel="stylesheet" href="{{ URL::asset('css/home.css'); }}">
-@endpush   
+@endpush
 @section('content')
 <div class="contentbg">
     <div class="container-fluid first-container" style="">
@@ -19,8 +19,8 @@
                 <h6 class="c3">Java</h6>
                 <h3 class="c4">Vue</h3>
                 <h4 class="c5">C#</h4>
-                <h5 class="c6">Laravel</h5> 
-                <h6 class="c7">Javascript</h6> 
+                <h5 class="c6">Laravel</h5>
+                <h6 class="c7">Javascript</h6>
                 <h2 class="c8">Ruby</h2>
                 <h1 class="c9">Css</h1>
                 <h3 class="c10">Php</h3>
@@ -46,7 +46,7 @@
                         <div class="p-3 single-tpost" style="">
                             <h6>
                                 <a href="{{ route('users.show',$p->user_id) }}" class="text-decoration-none username" style="">{{ $p->user->name }}</a>
-                                    <span class="username-span">in</span> 
+                                    <span class="username-span">in</span>
                                 <a href="{{ route('category.show',$p->category_id) }}" class="categoryname text-decoration-none" style="">{{ $p->category->cat_name }}</a>
                             </h6>
                             <h5 class="card-title">
@@ -68,7 +68,7 @@
     </div>
 </div>
 <div class="container-fluid mt-5 opacity-0" id="posts">
-    White Space
+    White Spaces
 </div>
 <div class="container-fluid" >
     <div class="container d-flex" style="">
@@ -107,8 +107,8 @@
                     <div class="postcat-box">
                         @foreach($category as $c)
                             <a href="{{ route('category.show',$c->id) }}" class="post-category2 text-decoration-none p-2 d-inline-block m-1" style="">{{ $c->cat_name }}</a>
-                        @endforeach     
-                    </div>  
+                        @endforeach
+                    </div>
                 </div>
                 <a href="" class="text-decoration-none seemore">See more topics</a>
                 <div class="d-flex justify-content-center">
